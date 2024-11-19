@@ -6,9 +6,39 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 163062474303
+  numberOfFiles: 27
+  numberOfSubjects: 27
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - TwoPhotonSeries
+  - OpticalChannel
+  - PlaneSegmentation
+  - PupilTracking
+  - ProcessingModule
+  - ImagingPlane
 citation: Cody, Patrick (2024) Cortical zinc dependent pupil changes to sound contrast
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001256/draft
 contributor:
