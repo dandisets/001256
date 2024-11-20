@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001256
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -24,9 +25,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 180998553439
-  numberOfFiles: 29
-  numberOfSubjects: 29
+  numberOfBytes: 185048387628
+  numberOfFiles: 30
+  numberOfSubjects: 30
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -39,8 +40,8 @@ assetsSummary:
   - PupilTracking
   - ProcessingModule
   - ImagingPlane
-citation: Cody, Patrick (2024) Cortical zinc dependent pupil changes to sound contrast
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001256/draft
+citation: Cody, Patrick; Kumar, Manoj; Tzounopoulos, Thanos (2024) Cortical zinc dependent
+  pupil changes to sound contrast (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001256/draft
 contributor:
 - affiliation: []
   email: pcody1@gmail.com
@@ -49,19 +50,41 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: Kumar, Manoj
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Tzounopoulos, Thanos
+  schemaKey: Person
 dateCreated: '2024-11-19T19:07:11.673758+00:00'
 description: 'Data for analyses presented in Cody et. al. 2024: Cortical Zinc Signaling
   Is Necessary for Changes in Mouse Pupil Diameter That Are Evoked by Background Sounds
   with Different Contrasts. 10.1523/JNEUROSCI.0939-23.2024'
+ethicsApproval: []
 id: DANDI:001256/draft
 identifier: DANDI:001256
+keywords:
+- GCaMP6f
+- contrast gain control
+- primary auditory cortex
+- zinc signaling
+- synaptic zinc
+- zinc
+- pupillometry
+- auditory cortex
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001256/versions/draft/assets/
 name: Cortical zinc dependent pupil changes to sound contrast
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001256/draft
 version: draft
+wasGeneratedBy: []
