@@ -2,10 +2,14 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001256
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- identifier: UBERON:0034751
+  name: primary auditory cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: R01-DC019618, R01-EB033172, and R01-DC020923 (to T.T.)
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -58,7 +62,15 @@ contributor:
 - includeInCitation: true
   name: Tzounopoulos, Thanos
   schemaKey: Person
+- awardNumber: T32-DC011499, R01-DC019618, R01-EB033172, R01-DC020923
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: 'National Institutes of Health '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-11-19T19:07:11.673758+00:00'
+datePublished: '2024-11-20T21:50:01.339790+00:00'
 description: 'Data for analyses presented in Cody et. al. 2024: Cortical Zinc Signaling
   Is Necessary for Changes in Mouse Pupil Diameter That Are Evoked by Background Sounds
   with Different Contrasts. 10.1523/JNEUROSCI.0939-23.2024'
@@ -79,8 +91,29 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001256/versions/draft/assets/
 name: Cortical zinc dependent pupil changes to sound contrast
-protocol: []
-relatedResource: []
+protocol:
+- https://doi.org/10.1523/JNEUROSCI.0939-23.2024
+- https://www.jneurosci.org/content/42/28/5564
+publishedBy:
+  endDate: '2024-11-20T21:50:01.339790+00:00'
+  id: urn:uuid:184ff9bd-638d-4b02-a5e2-2d18d51788a1
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-20T21:50:01.339790+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:4f735d59-1c1a-4c56-8173-eb6cfd41d35e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- name: Cortical Zinc Signaling Is Necessary for Changes in Mouse Pupil Diameter That
+    Are Evoked by Background Sounds with Different Contrasts
+  relation: dcite:IsPublishedIn
+  repository: Journal of Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1523/JNEUROSCI.0939-23.2024
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
